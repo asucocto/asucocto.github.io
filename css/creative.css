@@ -88,6 +88,17 @@ p {
     background-color: #222;
 }
 
+#video-background {
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -1;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -132,18 +143,6 @@ aside {
     font-weight: 700;
     color: #222;
 }
-
-#video-background {
-  position: absolute;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -1;
-}
-
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
@@ -219,7 +218,7 @@ header {
     text-align: center;
     color: #fff;
     /*background-image: url(../img/header.jpg);*/
-    /*background-image: url('../img/night_safety.gif');*/
+    background-image: url('../img/night_safety.gif');
     /*img/night_safety.mp4*/
     background-position: center;
     -webkit-background-size: cover;
@@ -515,4 +514,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+#about-p{
+    text-align: left;
 }
