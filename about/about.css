@@ -12,6 +12,7 @@
 }
 
 .cover-text {
+    font-family: 'Roboto';
     position: absolute;
     margin: 0 auto;
     top: 50%;

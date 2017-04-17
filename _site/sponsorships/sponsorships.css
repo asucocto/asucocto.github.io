@@ -44,6 +44,7 @@
 }
 
 .sponsor {
+    padding-top: 40px;
     background-color: #EEE;
 }
 
@@ -55,4 +56,24 @@
 
 .sponsor-header {
     text-align: center;
+}
+
+.sponsor-container {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#sponsor {
+    width: 900px;
+    max-width: 80vw;
+    height: auto;
+}
+
+.learn {
+    margin-left: 15px;
+    background-color: #EEE;
+}
+
+.info-point {
+    padding-bottom: 40px;
 }

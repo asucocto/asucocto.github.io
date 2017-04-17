@@ -31,11 +31,13 @@
         {% include about.html %}
         {% elsif page.title == "Sponsorships" %}
         {% include sponsorships.html %}
+        {% elsif page.title == "Events" %}
+        {% include events.html %}
         {% else %}
         {% endif %}
 	    <!-- jQuery -->
 	    <script src="/js/jquery.js"></script>
-
+        <script src-"/js/cldnr.min.js"></script>
 	    <!-- Bootstrap Core JavaScript -->
 	    <script src="/js/bootstrap.min.js"></script>
 
@@ -69,9 +71,9 @@
 	                    <li>
 	                        <a class="page-scroll" href="/sponsorships">Sponsorships</a>
 	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/people">People</a>
-	                    </li>
+                        <li>
+                            <a class="page-scroll" href="/events">Events</a>
+                        </li>
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
