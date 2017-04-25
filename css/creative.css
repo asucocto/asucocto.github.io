@@ -490,6 +490,14 @@ fieldset[disabled] .btn-primary.active {
     padding: 15px 30px;
 }
 
+@media (min-width: 600px) {
+  .desktop-visible { display: block; }
+}
+
+@media (max-width: 600px) {
+  .desktop-visible { display: none; }
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
