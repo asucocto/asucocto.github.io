@@ -9,78 +9,153 @@
 			}
 		</style>
 		<!-- Bootstrap Core CSS -->
-	    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-	    <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
+	    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	    <link rel="icon" href="img/favicon.png" type="png" sizes="32x32">
+
+        <!-- Bootstrap Paper Theme -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
 
 	    <!-- Custom Fonts -->
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
 	    <!-- Plugin CSS -->
-	    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+	    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 	    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	    <!-- Custom CSS -->
-	    <link rel="stylesheet" href="/css/creative.css" type="text/css">
-	    <link rel="stylesheet" href="/css/timeline.css" type="text/css">
+	    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	    <link rel="stylesheet" href="css/timeline.css" type="text/css">
+	    <link rel="stylesheet" href="css/main.css" type="text/css">
+        
+        
 	    <!-- jQuery -->
-	    <script src="/js/jquery.js"></script>
-
+	    <script src="js/jquery.js"></script>
+        <script src-"js/cldnr.min.js"></script>
 	    <!-- Bootstrap Core JavaScript -->
-	    <script src="/js/bootstrap.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
 
 	</head>
 	<body>
 		 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-	        <div class="container-fluid">
+	        <div class="container-fluid float-center">
 	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header">
-	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                </button>
-	                <a class="navbar-brand page-scroll" href="/">ASUC OCTO</a>
-	            </div>
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="/" class="navbar-brand page-scroll" id="octo">ASUC OCTO</a>
+				</div>
+
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-right">
-	                    <li>
-	                        <a class="page-scroll" href="/about">About</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/projects">Projects</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/recruitment">Recruitment</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/sponsorships">Sponsorships</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/people">People</a>
-	                    </li>
+	            <div class="collapse navbar-collapse child" id="bs-example-navbar-collapse-1">
+	                <ul class="nav navbar-nav navbar-right" id="nav-links">
+										<li>
+												<a class="page-scroll" href="../_site/about/index.html">About</a>
+										</li>
+										<li>
+												<a class="page-scroll" href="../_site/projects/index.html">Projects</a>
+										</li>
+										<li>
+												<a class="page-scroll" href="../_site/recruitment/index.html">Recruitment</a>
+										</li>
+										<li>
+												<a class="page-scroll" href="../_site/sponsorships/index.html">Sponsorships</a>
+										</li>
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
 	        </div>
 	        <!-- /.container-fluid -->
 	    </nav>
-		<header>
+
+		<section id="OCTO_header" data-type="background" data-speed="10">
+  <header id="main_header">
     <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Welcome to the ASUC Office of the CTO!</h1>
-            <hr>
-            <p>We build great software for our fellow Bears.</p>
-            <a href="/about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+      <div class="header-content-inner">
+        <h1>OCTO</h1>
+        <p>We build great software for our fellow Bears.</p>
+        <div class="icons">
+          <img class="icon" src="img/ipad@max.png" alt="">
+          <img class="icon" src="img/macbook@max.png" alt="">
+          <img class="icon" src="img/iphone@max.png" alt="">
         </div>
+      </div>
     </div>
-    <video muted autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="/img/eschleman.jpg" id="video-background">
-        <source src="/img/Berkeley_Mobile_Lyft_Promo.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-</header>
+  </header>
+</section>
+
+<section id="about_us" class="info-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
+        <h2 class="section-heading">ABOUT US</h2>
+        <p id="about-p">The ASUC Office of the CTO was founded in Spring of 2014 with one goal in mind: to more easily and efficiently provide quality software to Berkeley students and staff. We strive to help our fellow students more efficiently navigate Berkeley’s complex bureaucracy, and allow them to better manage their safety.</p>
+        <p id="about-p">As a full-fledged division of the ASUC with over 30 talented members, we work to improve the campus experience for everybody. Our team works on everything from Android, iOS, and back-end development to marketing and product management.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about_us_spacer" class="spacer" data-type="background" data-speed="10" background="http://www.intrawallpaper.com/static/images/cool-background.jpg" 100vw auto no-repeat fixed 300px>
+  <div/>
+</section>
+
+<section id="what_we_work_on" class="info-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
+        <div id="text">
+          <h2 class="section-heading">WHAT WE WORK ON</h2>
+          <p id="about-p">The diverse skills of our team enable us to develop better on-campus technology resources for a wide range of uses. We work with the university to connect students with faculty and facilities better, and also create our own independent apps that are freely available to everyone.</p>
+          <p id="about-p">Right now, we're working on five exciting projects: Berkeley Mobile, Berkeley Time, Hermione, Digital Service, and Sensus. Learn more:</p>
+          <div><a href="/projects"><button type="button" class="btn btn-default navbar-btn">PROJECTS</button></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about_us_spacer" data-type="background" data-speed="10">
+  <div class="spacer"/>
+</section>
+
+<section id="our-sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
+        <h2 class="section-heading">OUR SPONSORS</h2>
+        <p id="about-p">In the past we have partenered with companies such as Lyft, Adobe and Doordash. If you are interested in partenering with us
+          feel free to contact us for more information. Many of our alumni have gone on to work in many top tech companies.
+        </p>
+        <div><a href="/sponsorships"><button type="button" class="btn btn-default navbar-btn">SPONSORS</button></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about_us_spacer" data-type="background" data-speed="10">
+  <div class="spacer"/>
+</section>
+
+<section id="join_the_team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
+        <h2 class="section-heading">JOIN THE TEAM</h2>
+        <p id="about-p">We're always looking for people of diverse backgrounds. Stay tuned for more information</p>
+        <div><a href="/recruitment"><button type="button" class="btn btn-default navbar-btn">JOIN</button></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 		<!-- Footer -->
 	    <footer class="bg-dark">
@@ -121,14 +196,14 @@
 	        </br>
 	    </footer>
 	    <!-- Plugin JavaScript -->
-	    <script src="/js/jquery.easing.min.js"></script>
-	    <script src="/js/sweetalert.min.js"></script> 
-	    <script src="/js/jquery.fittext.js"></script>
-	    <script src="/js/wow.min.js"></script>
+	    <script src="js/jquery.easing.min.js"></script>
+	    <script src="js/sweetalert.min.js"></script>
+	    <script src="js/jquery.fittext.js"></script>
+	    <script src="js/wow.min.js"></script>
 
 	    <!-- Custom Theme JavaScript -->
-	    <script src="/js/creative.js"></script>
+	    <script src="js/creative.js"></script>
 
-		
+
 	</body>
 </html>

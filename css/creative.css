@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -90,11 +90,11 @@ p {
 
 #video-background {
   position: absolute;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
+  width: auto;
   height: auto;
   z-index: -1;
 }
@@ -128,7 +128,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #003262;
+    color: white;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -239,6 +239,8 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 65px;
+    color: white;
 }
 
 header .header-content .header-content-inner hr {
@@ -246,7 +248,6 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
