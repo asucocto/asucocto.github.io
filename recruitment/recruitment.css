@@ -3,6 +3,7 @@
 }
 
 .header-text {
+    margin-top: 32px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -13,6 +14,9 @@
     height: auto;
     padding: 40px;
     background: rgba(238, 238, 238, 0.9);
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 12px;
 }
 
 #title {
@@ -22,6 +26,22 @@
 }
 
 .desc {
+    font-size: 16px;
 	font-weight: 400 !important;
     color: black !important;
+    margin-bottom: 0;
+}
+
+.bot {
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 950px) {
+    .top {
+        display: none;
+    }
+    .bot {
+        display: inline-block;
+    }
 }
