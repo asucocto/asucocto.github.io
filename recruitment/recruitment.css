@@ -17,6 +17,12 @@
     display: inline-block;
     margin-bottom: 12px;
     margin-right: 12px;
+    opacity: 0.85;
+    transform: 300ms;
+}
+
+.recruitment:hover {
+    opacity: 1;
 }
 
 #title {
@@ -35,6 +41,15 @@
 .bot {
     text-align: center;
     display: none;
+}
+
+.link {
+    color: #3B7EA1;
+}
+
+.boxlink:hover {
+    text-decoration: none !important;
+    
 }
 
 @media (max-width: 950px) {
