@@ -44,7 +44,13 @@
 }
 
 .link {
+    font-size: 16px;
+    font-weight: 600 !important;
     color: #3B7EA1;
+}
+
+.link:hover {
+    text-decoration: none;
 }
 
 .boxlink:hover {
