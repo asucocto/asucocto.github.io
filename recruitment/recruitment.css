@@ -19,6 +19,7 @@
     margin-right: 12px;
     opacity: 0.85;
     transform: 300ms;
+    cursor: hand;
 }
 
 .recruitment:hover {
