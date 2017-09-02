@@ -106,11 +106,20 @@ header p {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
-	transition: 200ms ease-in;
 }
 
-.icon:hover{
-	transform: scale(1.2);
+.apply {
+	font-size: 36px;
+	color: white;
+	font-weight: 600;
+	padding: 15px 30px;
+	display: inline-block;
+	margin-top: 12px;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.apply:hover {
+	text-decoration: none;
 }
 
 #OCTO_header {
